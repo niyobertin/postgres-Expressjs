@@ -1,0 +1,27 @@
+{
+  "name": "postgres-expressjs",
+  "version": "1.0.0",
+  "description": "leaning exxpress with postgres",
+  "main": "app.js",
+  "scripts": {
+    "test": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niyobertin/postgres-Expressjs.git"
+  },
+  "author": "Niyonkuru Bertin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niyobertin/postgres-Expressjs/issues"
+  },
+  "homepage": "https://github.com/niyobertin/postgres-Expressjs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "router": "^1.3.7"
+  }
+}
